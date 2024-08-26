@@ -39,7 +39,6 @@ namespace DrawIn3D
         public class Finger
         {
             public int Index;
-            public float Pressure;
             public Vector2 ScreenPosition;
         }
 

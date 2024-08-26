@@ -59,13 +59,11 @@ namespace DrawIn3D
 
             PointOverGui(screenPosition);
 
-            finger.Pressure = pressure;
             finger.ScreenPosition = screenPosition;
         }
 
         private static void StepFinger(Finger finger, Vector2 screenPosition, float pressure)
         {
-            finger.Pressure = pressure;
             finger.ScreenPosition = screenPosition;
         }
     }

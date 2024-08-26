@@ -181,12 +181,6 @@ namespace DrawIn3D
                     else
                         Material = new HashedMaterial(CachedLineMaterial, CachedLineMaterialHash);
                     break;
-                case 2:
-                    if (_clip)
-                        Material = new HashedMaterial(CachedQuadClipMaterial, CachedQuadClipMaterialHash);
-                    else
-                        Material = new HashedMaterial(CachedQuadMaterial, CachedQuadMaterialHash);
-                    break;
             }
 
             _blend = blendMode;
